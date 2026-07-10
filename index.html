@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdullah Al Zobayer | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="navbar__inner">
+      <a href="#top" class="navbar__logo">Abdullah <span>Al Zobayer</span></a>
+      <nav class="navbar__links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="navbar__cta">Hire Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="top" class="hero">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow">Welcome to my portfolio</p>
+        <h1>Hi, I'm <span>Abdullah Al Zobayer</span></h1>
+        <h2 class="hero__subtitle">Software Engineering Student</h2>
+        <p class="hero__desc">
+          A Software Engineering student at Daffodil International University, originally from Rangpur.
+          I build with C, Java, Python, HTML, CSS and JavaScript, and I love turning ideas into
+          working software.
+        </p>
+        <div class="hero__buttons">
+          <a href="#skills" class="btn btn--primary">View My Skills</a>
+          <a href="#contact" class="btn btn--outline">Contact Me</a>
+          <a href="https://github.com/zubu3212" target="_blank" rel="noopener" class="btn btn--outline">GitHub</a>
+          <a href="https://www.linkedin.com/in/abdulla-al-zobayer-785b13289/" target="_blank" rel="noopener"
+            class="btn btn--outline">LinkedIn</a>
+        </div>
+        <div class="hero__quick-info">
+          <div class="quick-info__item">
+            <span class="quick-info__label">Department</span>
+            <span class="quick-info__value">Software Engineering</span>
+          </div>
+          <div class="quick-info__item">
+            <span class="quick-info__label">University</span>
+            <span class="quick-info__value">Daffodil International University</span>
+          </div>
+          <div class="quick-info__item">
+            <span class="quick-info__label">Home Town</span>
+            <span class="quick-info__value">Rangpur, Bangladesh</span>
+          </div>
+          <div class="quick-info__item">
+            <span class="quick-info__label">Phone</span>
+            <span class="quick-info__value">01791136810</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__photo-wrap">
+        <div class="hero__photo">
+          <img src="zu.jpeg" alt="Abdullah Al Zobayer"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="hero__photo-fallback"><span>AZ</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section__inner">
+      <p class="section__label">About Me</p>
+      <h2 class="section__title">Get to know me</h2>
+
+      <div class="about__grid">
+        <div class="about__photo">
+          <img src="zu.jpeg" alt="Abdullah Al Zobayer"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="about__photo-fallback"><span>AZ</span></div>
+        </div>
+        <div class="about__text">
+          <p>
+            My name is <b>Abdullah Al Zobayer</b>. I'm a <b>Software Engineering</b> student at
+            <b>Daffodil International University</b>, and I come from <b>Rangpur</b>. I enjoy
+            the process of breaking a problem down and building it back up into clean, working code.
+          </p>
+          <p>
+            My interests span the full stack — from low-level logic in C, to structured
+            programming in Java and Python, to building interfaces for the web with HTML,
+            CSS, and JavaScript. I'm always working on improving my skills and looking for
+            opportunities to learn and contribute.
+          </p>
+
+          <div class="about__stats">
+            <div class="stat-card">
+              <span class="stat-card__num">6</span>
+              <span class="stat-card__label">Languages &amp; Tools</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">1</span>
+              <span class="stat-card__label">University</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">100%</span>
+              <span class="stat-card__label">Dedication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="education" class="section section--gray">
+    <div class="section__inner">
+      <p class="section__label">Education</p>
+      <h2 class="section__title">My academic background</h2>
+
+      <div class="edu-card">
+        <div class="edu-card__icon">DIU</div>
+        <div class="edu-card__body">
+          <h3>Daffodil International University</h3>
+          <p class="edu-card__meta">B.Sc. in Software Engineering</p>
+          <p class="edu-card__desc">
+            Studying core software engineering subjects including programming, problem-solving,
+            and software development, while building practical skills across multiple
+            programming languages.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section">
+    <div class="section__inner">
+      <p class="section__label">Skills</p>
+      <h2 class="section__title">What I work with</h2>
+      <p class="section__desc">Languages and tools I use to build and solve problems.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">C</div>
+          <h3>C Programming</h3>
+          <p>Strong foundation in logic, memory, and structured programming.</p>
+          <div class="progress">
+            <div class="progress__bar" style="width:80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">J</div>
+          <h3>Java</h3>
+          <p>Object-oriented programming and building organized, reusable code.</p>
+          <div class="progress">
+            <div class="progress__bar" style="width:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">Py</div>
+          <h3>Python</h3>
+          <p>My go-to language for quick problem-solving and scripting.</p>
+          <div class="progress">
+            <div class="progress__bar" style="width:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">H</div>
+          <h3>HTML</h3>
+          <p>Structuring clean, semantic, and accessible web pages.</p>
+          <div class="progress">
+            <div class="progress__bar" style="width:90%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">C3</div>
+          <h3>CSS</h3>
+          <p>Designing responsive layouts and polished visual interfaces.</p>
+          <div class="progress">
+            <div class="progress__bar" style="width:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and dynamic behaviour to web pages.</p>
+          <div class="progress">
+            <div class="progress__bar" style="width:70%"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="section section--dark">
+    <div class="section__inner">
+      <p class="section__label section__label--light">Contact</p>
+      <h2 class="section__title section__title--light">Let's work together</h2>
+      <p class="section__desc section__desc--light">
+        Have an opportunity, a project, or just want to say hello? Feel free to reach out.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-item__icon">☎</div>
+          <p class="contact-item__label">Phone</p>
+          <a class="contact-item__value" href="tel:01791136810">01791136810</a>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">📍</div>
+          <p class="contact-item__label">Location</p>
+          <p class="contact-item__value">Rangpur, Bangladesh</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">🎓</div>
+          <p class="contact-item__label">University</p>
+          <p class="contact-item__value">Daffodil International University</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">💻</div>
+          <p class="contact-item__label">Department</p>
+          <p class="contact-item__value">Software Engineering</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">🔗</div>
+          <p class="contact-item__label">GitHub</p>
+          <a class="contact-item__value" href="https://github.com/zubu3212" target="_blank"
+            rel="noopener">github.com/zubu3212</a>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">in</div>
+          <p class="contact-item__label">LinkedIn</p>
+          <a class="contact-item__value" href="https://www.linkedin.com/in/abdulla-al-zobayer-785b13289/"
+            target="_blank" rel="noopener">View Profile</a>
+        </div>
+      </div>
+
+      <a href="tel:01791136810" class="btn btn--primary btn--large">Call Me Now</a>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>&copy; 2026 Abdullah Al Zobayer. All rights reserved.</p>
+    <p class="footer__sub">Software Engineering &middot; Daffodil International University &middot; Rangpur, Bangladesh
+    </p>
+    <p class="footer__sub">
+      <a href="https://github.com/zubu3212" target="_blank" rel="noopener" class="footer__link">GitHub</a>
+      &middot;
+      <a href="https://www.linkedin.com/in/abdulla-al-zobayer-785b13289/" target="_blank" rel="noopener"
+        class="footer__link">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
