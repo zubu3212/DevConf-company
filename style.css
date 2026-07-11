@@ -14,7 +14,7 @@ h1, h2, h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -78,7 +78,7 @@ h1, h2, h3 {
   color: #f5a623;
 }
 
-/* ===== HERO ===== */
+
 .hero {
   text-align: center;
   padding: 100px 20px;
@@ -105,7 +105,7 @@ h1, h2, h3 {
   margin: 0 auto 30px auto;
 }
 
-/* ===== SPEAKERS ===== */
+
 .speakers {
   padding: 80px 40px;
   text-align: center;
@@ -160,7 +160,7 @@ h1, h2, h3 {
   font-size: 14px;
 }
 
-/* ===== HACKATHON (AI SECTION) ===== */
+
 .hackathon {
   background-color: #1a1a1a;
   padding: 80px 40px;
@@ -213,7 +213,7 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-/* ===== PRICING ===== */
+
 .pricing {
   padding: 80px 40px;
   text-align: center;
@@ -291,7 +291,7 @@ h1, h2, h3 {
   border-bottom: 1px dashed #333333;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
   padding: 40px;
 }
@@ -331,7 +331,7 @@ h1, h2, h3 {
   font-size: 13px;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 700px) {
   .nav-links {
     display: none;
